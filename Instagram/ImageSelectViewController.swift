@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ImageSelectViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+class ImageSelectViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate, AdobeUXImageEditorViewControllerDelegate {
 
   override func viewDidLoad() {
       super.viewDidLoad()
@@ -84,7 +84,7 @@ class ImageSelectViewController: UIViewController, UIImagePickerControllerDelega
     
     // 投稿の画面を開く
     let postViewController = self.storyboard?.instantiateViewController(withIdentifier: "Post") as! PostViewController
-    PostViewController.image = image
+    postViewController.image = image
     present(postViewController, animated: true, completion: nil)
   }
   

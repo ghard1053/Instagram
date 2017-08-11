@@ -2,7 +2,7 @@
 //  Instagram-Bridging-Header.h
 //  Instagram
 //
-//  Created by 水野 隆夫 on 2017/08/05.
+//  Created by 水野 隆夫 on 2017/08/08.
 //  Copyright © 2017年 ghard1053. All rights reserved.
 //
 

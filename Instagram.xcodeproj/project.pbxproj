@@ -87,9 +87,9 @@
 		AF4CBEC71F35C3760057856E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		AF4CBEC91F35C3810057856E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		AF4CBECB1F35C38C0057856E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		AF4CBECE1F35C4340057856E /* Instagram-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Instagram-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		AF4CBECF1F35E4D00057856E /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		AF4CBED11F35E8EF0057856E /* PostData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		AFFC2A731F39EF8C003CCD1A /* Instagram-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Instagram-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,7 +166,6 @@
 		AF3AA7471F2CDAF9003DB4A2 /* Instagram */ = {
 			isa = PBXGroup;
 			children = (
-				AF4CBECE1F35C4340057856E /* Instagram-Bridging-Header.h */,
 				AF4CBEAE1F35C2180057856E /* AdobeCreativeSDKCore.framework */,
 				AF4CBEAF1F35C2180057856E /* AdobeCreativeSDKImage.framework */,
 				AF3AA7481F2CDAF9003DB4A2 /* AppDelegate.swift */,
@@ -185,6 +184,7 @@
 				AF3AA7511F2CDAF9003DB4A2 /* LaunchScreen.storyboard */,
 				AF3AA7541F2CDAF9003DB4A2 /* Info.plist */,
 				AF3AA7641F2D9B94003DB4A2 /* GoogleService-Info.plist */,
+				AFFC2A731F39EF8C003CCD1A /* Instagram-Bridging-Header.h */,
 			);
 			path = Instagram;
 			sourceTree = "<group>";
