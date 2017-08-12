@@ -244,7 +244,7 @@
         <!--Comment View Controller-->
         <scene sceneID="vWT-df-UWh">
             <objects>
-                <viewController id="A4P-iq-HCi" customClass="CommentViewController" customModule="Instagram" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Comment" id="A4P-iq-HCi" customClass="CommentViewController" customModule="Instagram" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vuB-Tj-WHL"/>
                         <viewControllerLayoutGuide type="bottom" id="cZ7-LT-bw4"/>

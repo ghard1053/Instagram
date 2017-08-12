@@ -16,8 +16,8 @@ class PostTableViewCell: UITableViewCell {
   @IBOutlet weak var dateLabel: UILabel!
   @IBOutlet weak var captionLabel: UILabel!
   @IBOutlet weak var commentButton: UIButton!
-  @IBOutlet weak var commentView: UITextView!
-    
+  @IBOutlet weak var commentLabel: UILabel!
+  
   
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -55,10 +55,12 @@ class PostTableViewCell: UITableViewCell {
     if let comments: [String: String] = postData.comments {
       var setComments = ""
       for (key, value) in comments {
-        setComments = setComments + ("\(key):\(value)\n")
+        print("key: value")
+        print("\(key): \(value)")
+        setComments = setComments + ("\(key): \(value)\n")
+        setComments = "\(key): \(value)\n"
       }
-      
-      self.commentView.text = setComments
+      self.commentLabel.text = setComments
     }
     
 

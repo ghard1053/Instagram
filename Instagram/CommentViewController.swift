@@ -36,8 +36,9 @@ class CommentViewController: UIViewController {
       return
     }
     
-    if let uid = FIRAuth.auth()?.currentUser?.uid {
-      postData.comments.updateValue(comment, forKey: uid)
+//    if let uid = FIRAuth.auth()?.currentUser?.uid {
+    if let name = FIRAuth.auth()?.currentUser?.displayName {
+      postData.comments.updateValue(comment, forKey: name)
 
       let postRef = FIRDatabase.database().reference().child(Const.PostPath).child(postData.id!)
       let comments = ["comments": postData.comments]
