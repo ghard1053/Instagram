@@ -38,6 +38,7 @@
 		AF4CBECC1F35C38C0057856E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4CBECB1F35C38C0057856E /* QuartzCore.framework */; };
 		AF4CBED01F35E4D00057856E /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4CBECF1F35E4D00057856E /* Const.swift */; };
 		AF4CBED21F35E8EF0057856E /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4CBED11F35E8EF0057856E /* PostData.swift */; };
+		AFFC2A751F3DCA35003CCD1A /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFC2A741F3DCA35003CCD1A /* CommentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -90,6 +91,7 @@
 		AF4CBECF1F35E4D00057856E /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		AF4CBED11F35E8EF0057856E /* PostData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		AFFC2A731F39EF8C003CCD1A /* Instagram-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Instagram-Bridging-Header.h"; sourceTree = "<group>"; };
+		AFFC2A741F3DCA35003CCD1A /* CommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 				AF3AA7481F2CDAF9003DB4A2 /* AppDelegate.swift */,
 				AF3AA74A1F2CDAF9003DB4A2 /* ViewController.swift */,
 				AF3AA74C1F2CDAF9003DB4A2 /* Main.storyboard */,
+				AFFC2A741F3DCA35003CCD1A /* CommentViewController.swift */,
 				AF4CBED11F35E8EF0057856E /* PostData.swift */,
 				AF3500C71F373E33001509B8 /* PostTableViewCell.swift */,
 				AF3500C81F373E33001509B8 /* PostTableViewCell.xib */,
@@ -339,6 +342,7 @@
 				AF3500C91F373E33001509B8 /* PostTableViewCell.swift in Sources */,
 				AF3AA7631F2CDECF003DB4A2 /* SettingViewController.swift in Sources */,
 				AF3AA75D1F2CDE95003DB4A2 /* HomeViewController.swift in Sources */,
+				AFFC2A751F3DCA35003CCD1A /* CommentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
